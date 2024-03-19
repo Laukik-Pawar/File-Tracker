@@ -1,3 +1,5 @@
+# File-Tracker
+
 1.	Download XAMPP: Visit the official website of Apache Friends (https://www.apachefriends.org/index.html) and download the appropriate XAMPP installer for your operating system (Windows, macOS, Linux).
 2.	Run the Installer:
 •	For Windows: Double-click the downloaded installer file (e.g., xampp-windows-x64-x.x.x-x-installer.exe) to start the installation process.
@@ -12,7 +14,7 @@
 7.	Optional Configuration:
 •	If you need to change any configuration settings (e.g., PHP settings, Apache configurations), you can do so by editing the respective configuration files located in the XAMPP installation directory.
 •	You may also want to set up security measures, such as setting passwords for MySQL and securing phpMyAdmin.
-That's it! XAMPP is now installed on your system, and you can start developing and testing web applications locally.
+That's it! XAMPP is now installed on your system.
 ------------------------------------------------------------------------------------------------------------------------------
 
 To start a website using XAMPP, you'll typically follow these steps:
@@ -25,16 +27,15 @@ To start a website using XAMPP, you'll typically follow these steps:
 •	Open a web browser.
 •	Enter http://localhost/ in the address bar.
 •	Enter Fts.sql file in phpmyadmin to create Database.
-•	If your website files are stored directly in the htdocs directory, you can access your website by entering http://localhost/Techie-main (Techie-main) is the name of the folder containing your website files.
+•	If your website files are stored directly in the htdocs directory, you can access your website by entering http://localhost/File-Tracker (File-Tracker) is the name of the folder containing your website files.
 4.	Verify Your Website:
 •	Your website should now be accessible in the web browser. You can navigate through your website to ensure it's working as expected.
-That's it! Your website should now be up and running locally using XAMPP. You can continue developing and testing your website on your local server before deploying it to a live server.
+That's it! Your website should now be up and running locally using XAMPP. 
 ---------------------------------------------------------------------------------------------------------------
 
 
 •	Default Passwords and emails:
 	Admin: (Password: admin, email: admin@gmail.com)
-	Hod: (Password: 1234, email: hod@gmail.com)
 	Principal: (Password: 1234, email: principal@gmail.com)
 ------------------------------------------------------------
 
@@ -46,9 +47,8 @@ That's it! Your website should now be up and running locally using XAMPP. You ca
 •	Work Flow: 
 	Committee Members will Login to the site.
 	They will make an application to Teacher for organizing event along with it they will request time slot and venue.
-	Teacher will verify and review the file and will pass it to Hod.
-	Hod will verify and review the file and will pass it to Principal.
-	Principal will finally give response to students (Committee members).
+	Teacher will verify and review the file and will pass it to Principal.
+	Principal will finally give response to students.
 	This whole process can be tracked by all concerned users.
 Content
 ------------------------------------------------------------------------------------------------------
